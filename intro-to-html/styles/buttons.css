@@ -1,0 +1,47 @@
+ button {
+            margin-top: 50px;
+        }
+
+    .subscribe-button {
+        background-color: rgb(199, 2, 2);
+        color: rgb(247, 249, 250);
+        border: rgb(26, 118, 210);
+        height: 35px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 10px;
+        transition: opacity 0.15s ease;
+    }
+
+    .subscribe-button:hover{
+        opacity: 0.8;
+    
+}
+
+    .subscribe-button:active {
+        opacity: 0.5;
+    }
+
+    .join-button {
+        background-color: rgb(255, 255, 255);
+        color: rgb(32, 170, 239);
+        border-color: rgb(32, 175, 236);
+        border-style: solid;
+        border-width: 1px;
+        height: 35px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: background-color 0.15s ease, color 0.15s ease; 
+    }
+
+        .join-button:hover{
+        background-color: rgb(44, 116, 231);
+        color: rgb(255, 255, 255);
+    
+}
+
+    .join-button:active {
+        opacity: 0.5;
+    }
